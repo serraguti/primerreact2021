@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
+import Saludo from './components/Saludo/Saludo';
+import Metodos from './components/Metodos/Metodos';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div className="App">
+    <Metodos/>
+    <Saludo nombre="Alumno" edad="23"/>
+    <Saludo nombre="Lucia" edad="18"/>
+  </div> ,
   document.getElementById('root')
 );
 
