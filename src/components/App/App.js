@@ -1,23 +1,17 @@
 import logo from './../../assets/images/logo.svg';
 import './App.css';
+import Saludo from './../Saludo/Saludo';
 
 function App() {
+
+  const metodoPadre = (descripcion) => {
+    console.log("Soy " + descripcion);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo}/>
-        <p>
-          Edit <code>src/App.js</code> and save to RECARGAR.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Saludo nombre="Adrian" edad="21" metodoPadre={metodoPadre}/>
+      <Saludo nombre="Lucia" edad="18" metodoPadre={metodoPadre}/>
     </div>
   );
 }

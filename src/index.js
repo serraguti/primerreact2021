@@ -9,9 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div className="App">
-    <SumarNumeros Numero1="5" Numero2="88"/>
-    <SumarNumeros Numero1="999" Numero2="777"/>
-    <SumarNumeros Numero1="789" Numero2="7821"/>        
+    <App/>       
   </div> ,
   document.getElementById('root')
 );
