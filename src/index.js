@@ -6,11 +6,15 @@ import Saludo from './components/Saludo/Saludo';
 import Metodos from './components/Metodos/Metodos';
 import SumarNumeros from './components/SumarNumeros/SumarNumeros'
 import Padre from './components/Matematicas/Padre';
+import Contador from './components/Contador/Contador';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div className="App">
-    <Padre/>       
+    <Contador Inicio="5"/>
+    <Contador Inicio="19"/>
+    <Contador Inicio="22"/>
+    <Contador Inicio="44"/>
   </div> ,
   document.getElementById('root')
 );
