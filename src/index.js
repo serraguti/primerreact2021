@@ -5,11 +5,12 @@ import App from './components/App/App';
 import Saludo from './components/Saludo/Saludo';
 import Metodos from './components/Metodos/Metodos';
 import SumarNumeros from './components/SumarNumeros/SumarNumeros'
+import Padre from './components/Matematicas/Padre';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div className="App">
-    <App/>       
+    <Padre/>       
   </div> ,
   document.getElementById('root')
 );
