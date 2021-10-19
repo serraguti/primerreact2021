@@ -4,15 +4,14 @@ import './index.css';
 import App from './components/App/App';
 import Saludo from './components/Saludo/Saludo';
 import Metodos from './components/Metodos/Metodos';
-
+import SumarNumeros from './components/SumarNumeros/SumarNumeros'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div className="App">
-    <App/>
-    <Metodos/>
-    <Saludo nombre="Alumno" edad="23"/>
-    <Saludo nombre="Lucia" edad="18"/>
+    <SumarNumeros Numero1="5" Numero2="88"/>
+    <SumarNumeros Numero1="999" Numero2="777"/>
+    <SumarNumeros Numero1="789" Numero2="7821"/>        
   </div> ,
   document.getElementById('root')
 );
