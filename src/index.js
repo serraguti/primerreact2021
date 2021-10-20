@@ -8,13 +8,11 @@ import SumarNumeros from './components/SumarNumeros/SumarNumeros'
 import Padre from './components/Matematicas/Padre';
 import Contador from './components/Contador/Contador';
 import reportWebVitals from './reportWebVitals';
+import PadreDibujo from './components/MatematicasDibujo/PadreDibujo'
 
 ReactDOM.render(
   <div className="App">
-    <Contador Inicio="5"/>
-    <Contador Inicio="19"/>
-    <Contador Inicio="22"/>
-    <Contador Inicio="44"/>
+    <PadreDibujo/>
   </div> ,
   document.getElementById('root')
 );
