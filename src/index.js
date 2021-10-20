@@ -8,11 +8,17 @@ import SumarNumeros from './components/SumarNumeros/SumarNumeros'
 import Padre from './components/Matematicas/Padre';
 import Contador from './components/Contador/Contador';
 import reportWebVitals from './reportWebVitals';
-import PadreDibujo from './components/MatematicasDibujo/PadreDibujo'
+import PadreDibujo from './components/MatematicasDibujo/PadreDibujo';
+import Car from './components/Car/Car';
 
 ReactDOM.render(
   <div className="App">
-    <PadreDibujo/>
+    <Car Marca="Pontiac" Modelo="Firebird" 
+    Aceleracion="20" VelocidadMaxima="210"/>
+    <Car Marca="Seat" Modelo="600" 
+    Aceleracion="2" VelocidadMaxima="90"/>
+    <Car Marca="Audi" Modelo="A6 Sportback" 
+    Aceleracion="30" VelocidadMaxima="270"/>        
   </div> ,
   document.getElementById('root')
 );
